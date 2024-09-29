@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.5.2-web/css/fontawesome.min.css">
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="../css/forms.css">
+    <title>POLI-TECXPERTS</title>
+    
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html" id="logo">
+                            <i class="fa-solid fa-computer"></i>
+                            <p>POLI-TECXPERTS</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="navigation">
+                        <ul class="menu">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../about.html">About us</a></li>
+                            <li><a href="../store.php">Our store</a></li>
+                            <li><a href="../canIRunIt.html">Can I Run It?</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="navigation">
+                        <ul class="menu">
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="login.html">Log In</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container-fluid">
+
+            <div class="row">
+                <h1>Sign Up</h1>
+                <h2>Create an account and upgrade your PC! </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+
+                    <div class="row alert alert-warning hidden" id="message-div">
+                    </div>
+
+                    <div class="row hidden" id="serv-resp">
+                    </div>
+
+                    <form method="post" id="contact-form" class="form">
+                        <div class="row">
+                            <label for="username">Username: </label>
+                            <input type="text" name="username" id="username">
+                        </div>
+                        <div class="row">
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="row">
+                            <label for="birth-date">Birthday: </label>
+                            <input type="date" name="birth_date" id="birth-date">
+                        </div>
+                        <div class="row">
+                            <label for="password">Password: </label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="row">
+                            <label for="confirm">Confirm password: </label>
+                            <input type="password" name="confirm" id="confirm">
+                        </div>
+                        <div class="row">
+                            <input type="submit" name="submit" id="submit" value="Create account">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 icons">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <div class="copyright">
+                        All rights reserved © POLI-TECXPERTS
+                    </div>
+                </div>
+                <div class="col-md-4 contact-info">
+                    <p>Bulevardul Metalurgiei</p>
+                    <p>|</p>
+                    <p>07xxxxxxxx</p>
+                    <p>|</p>
+                    <p>contact@poli-tecxperts.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(document).ready(function(){
+        $("#submit").click(function(e){
+            e.preventDefault();
+            var $form = $(this).closest(".form");
+            var username = $form.find("#username").val();
+            var email = $form.find("#email").val();
+            var birth_date = $form.find("#birth-date").val();
+            var password = $form.find("#password").val();
+            var confirm = $form.find("#confirm").val();
+
+            let counter = 0;
+            
+            let serv_resp = document.getElementById("serv-resp");
+
+            let message = document.getElementById("message-div");
+            message.classList.remove("visible");
+            message.classList.add("hidden");
+
+            function validateEmail(addr) {
+                var reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                return reg.test(addr);
+            }
+
+            function minimumAge(date){
+                var year = date.split("-")[0];      
+                var present_year = new Date().getFullYear();
+
+                if(present_year - year >= 14) return 1;
+                else return 0;
+            }
+
+            if(username ==="" || email ==="" || password ===""
+            || confirm ==="" || birth_date ===""){
+                message.innerHTML = "<p>Please complete all the fields!</p>";
+                counter++;
+                message.classList.add("visible");
+                message.classList.remove("hidden");
+            } else if(username.length < 5) {
+                message.innerHTML = "<p>Username must have at least 5 characters</p>";
+                counter++;
+                message.classList.add("visible");
+                message.classList.remove("hidden");
+            } else if(!validateEmail(email)){
+                message.innerHTML = "<p>Please enter a valid email address</p>";
+                counter++;
+                message.classList.add("visible");
+                message.classList.remove("hidden");
+            } else if(minimumAge(birth_date) === 0) {
+                message.innerHTML = "<p>Minimum age: 14 years old<p>";
+                counter++;                
+                message.classList.add("visible");
+                message.classList.remove("hidden");
+            } else if(password.length < 8) {
+                message.innerHTML = "<p>Password must have at least 8 characters</p>";
+                counter++;
+                message.classList.add("visible");
+                message.classList.remove("hidden");
+            } else if(password !== confirm){
+                message.innerHTML = "<p>Passwords must match</p>";
+                counter++;
+                message.classList.add("visible");
+                message.classList.remove("hidden");
+            }
+
+            if(counter === 0){
+            message.classList.remove("visible");
+            message.classList.add("hidden");
+            $.ajax({
+                url: "signup.php",
+                type: "POST",
+                data: {
+                    username: username,
+                    email: email,
+                    birth_date: birth_date,
+                    password: password,
+                    confirm: confirm,
+                    submit: true
+                },
+                success: function(data) {
+                    serv_resp.classList.add("visible");
+                    serv_resp.classList.remove("hidden");
+                    $('#serv-resp').html(data);
+                    $form.trigger("reset");
+                },
+            }); 
+        }
+        });
+    });
+</script>
+
+<script>
+    if(window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
+</html>
+
