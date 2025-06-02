@@ -1,0 +1,28 @@
+2024-04-27 14:07:56.841 [info] Extension host with pid 6223 started
+2024-04-27 14:07:57.887 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-27 14:07:58.364 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-27 14:07:58.995 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-27 14:07:59.506 [info] Eager extensions activated
+2024-04-27 14:07:59.527 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:07:59.539 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:07:59.623 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:08:01.137 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:08:03.440 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-04-27 14:09:09.033 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-27 14:09:09.196 [info] Extension host with pid 6223 exiting with code 0
+2024-04-27 14:09:16.244 [info] Extension host with pid 6384 started
+2024-04-27 14:09:16.244 [info] Skipping acquiring lock for /var/www/html/POLI_TECXPERTS/none/User/workspaceStorage/0aa557bc84d631e47cb8df9105e6aa46.
+2024-04-27 14:09:16.519 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-27 14:09:16.587 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-27 14:09:16.850 [info] Eager extensions activated
+2024-04-27 14:09:17.034 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:09:17.091 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:09:30.586 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-27 14:09:30.911 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:09:31.218 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-04-27 14:09:32.072 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-04-27 14:09:33.763 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-04-27 14:09:34.307 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-27 14:28:41.012 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-04-27 17:08:52.098 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-27 17:08:53.002 [info] Extension host with pid 6384 exiting with code 0

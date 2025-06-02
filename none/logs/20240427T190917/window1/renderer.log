@@ -1,0 +1,44 @@
+2024-04-27 19:09:27.179 [info] Started local extension host with pid 3740.
+2024-04-27 19:09:27.848 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-04-27 19:09:27.986 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-04-27 19:09:28.405 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-04-27 19:09:28.410 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-04-27 19:09:36.155 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.171 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.172 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.174 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.175 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.176 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.186 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.194 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.202 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.204 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.206 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:36.238 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 19:09:38.640 [info] [perf] Render performance baseline is 461ms
+2024-04-27 19:09:41.342 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-27 19:10:46.525 [error] [Extension Host] [auth] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-27 19:15:51.111 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+    at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:130993)
+    at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:129302)
+    at De.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:104965)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:127523
+    at Re.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:118853)
+    at Re.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:127509)
+    at u.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:5502)
+    at u.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:5268)
+    at u.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:4323)
+    at u.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:3440)
+    at o.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:149:2227)
+    at s.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at o.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:8018)
+    at s.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+    at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+    at r.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:6298)
+    at MessagePortMain.emit (node:events:517:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)

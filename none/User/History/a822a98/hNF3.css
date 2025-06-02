@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Teko, Inter;
+}
+
+.header {
+    background-color: black;
+    height: 20vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navigation ul {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navigation ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.navigation ul li a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.content {
+    height: 60vh;
+}
+
+.content h1, h2 {
+    text-align: center;
+
+}
+.content h1 {
+    margin-top: 5px;
+}
+
+.footer {
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact-info {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.contact-info p {
+    display: inline-block;
+    padding-right: 15px;
+    margin: 0;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icons i {
+    color: white;
+    padding: 7px;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 10px;
+}

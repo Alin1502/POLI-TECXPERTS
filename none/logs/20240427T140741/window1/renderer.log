@@ -1,0 +1,59 @@
+2024-04-27 14:07:52.196 [info] Started local extension host with pid 6223.
+2024-04-27 14:07:55.216 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.219 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.220 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.221 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.225 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.226 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.228 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.236 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.238 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.243 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.277 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:55.278 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:07:56.281 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-04-27 14:07:56.412 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-04-27 14:07:56.843 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-04-27 14:07:56.850 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-04-27 14:08:01.564 [info] [perf] Render performance baseline is 283ms
+2024-04-27 14:08:07.461 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-27 14:08:38.923 [error] [Extension Host] [auth] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-27 14:09:13.818 [info] Started local extension host with pid 6384.
+2024-04-27 14:09:14.011 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-04-27 14:09:18.000 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2024-04-27 14:09:18.001 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2024-04-27 14:09:18.606 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.610 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.613 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.615 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.618 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.622 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.623 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.625 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.627 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.630 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.631 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:18.632 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:22.468 [info] [perf] Render performance baseline is 315ms
+2024-04-27 14:09:29.361 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.365 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.374 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.377 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.379 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.381 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.386 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.400 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.412 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.414 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.418 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.421 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-04-27 14:09:29.698 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): handleIssueUri, interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-04-27 14:09:29.718 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-04-27 14:09:36.987 [error] [Extension Host] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-27 14:09:39.761 [error] [Extension Host] [auth] You are not signed in to GitHub. Please sign in to use Copilot.

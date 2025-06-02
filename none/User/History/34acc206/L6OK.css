@@ -1,0 +1,14 @@
+form .row input {
+    margin: 1vh auto;
+    width: 20vw;
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+}
+
+label {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    margin-left: 14vh;
+}

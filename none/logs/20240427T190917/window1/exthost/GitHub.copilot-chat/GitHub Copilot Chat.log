@@ -1,0 +1,7 @@
+2024-04-27 19:09:39.867 [info] [FetcherService] Using Helix fetcher
+2024-04-27 19:09:39.867 [info] [gitExtensionService] Initializing Git extension service.
+2024-04-27 19:09:39.867 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-04-27 19:09:39.867 [info] [gitExtensionService] Enablement state of the vscode.git extension: false.
+2024-04-27 19:09:41.270 [info] [auth] GitHub login failed
+2024-04-27 19:09:41.376 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-04-27 19:09:42.955 [info] [auth] GitHub login failed

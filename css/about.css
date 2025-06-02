@@ -1,0 +1,129 @@
+.content .image {
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.image:hover img {
+  transform: translateX(-110%);
+}
+
+.image:hover .text {
+  opacity: 1;
+}
+
+.about-icons{
+    background-color: white;
+    padding:0px;
+    height:auto;
+}
+.about-icons .title{
+    background-color:red;
+    padding: 0px;
+    text-align: center;
+    margin: 20px;
+    width:auto;
+    height: auto;
+    
+}
+.about-icons img{ 
+    height:auto;
+    margin-bottom: px;
+    padding: 0px;
+    width: 400px;
+    margin: 10px;
+    
+}
+.about-icons h3{
+    color:black;
+    font-size: 20px;
+}
+.about-icons a{
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 30px;
+    color: white;
+    
+}
+.col-md-4 h3{
+    text-align: center;
+}
+.container button{
+    color: black;
+}
+.image_gen{
+    width: 80%;
+    padding-right: 15%;
+    
+}
+.image_gen img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: right;
+    margin-top:20px;
+    
+}
+.general{
+    height: 250px;
+    background-color: beige;
+}
+.text2{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 70px;
+    margin-left: 30%;
+}
+
+.count{
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 30px;
+    
+}
+.continut p{
+    text-align: center;
+    font-size: 25px;
+}
+.continut{
+    background-color: darkgrey;
+    height: auto;
+}
+.continut a{
+    color: inherit;
+    text-decoration: underline;
+}
+.continut a:hover{
+    text-transform: uppercase;
+}
+.count-container{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    width: 24%;
+}
+.name{
+    text-align: center;
+    font-size: 20px;
+}

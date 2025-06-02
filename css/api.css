@@ -1,0 +1,53 @@
+.game-wrapper input, label { 
+    margin: 5px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text]{
+    text-align:center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    width: auto;
+    margin: 5px;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+.btn {
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-list h4, ul{
+    display: block;
+    text-align:center;
+    list-style: none;
+}
+#game-list ul {
+    padding: 0;
+    margin: 0 auto;
+}
+#game-list h4 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+    padding:0;
+    margin:0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+strong, h4{
+    text-align: center;
+}
